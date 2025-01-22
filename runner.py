@@ -1,6 +1,6 @@
 import sys
 
-sys.path.insert(1, '/fawkes')
+sys.path.insert(1, '/personal_fawkes')
 
 from fawkes.protection import Fawkes
 import os
