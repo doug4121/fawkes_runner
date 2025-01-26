@@ -7,5 +7,5 @@ from fawkes.protection import Fawkes
 import os
 
 image_paths = {sys.argv[1]}
-my_fawkes = Fawkes("extractor_2", '0', 16, "high")
+my_fawkes = Fawkes("extractor_2", '0', 1, "high")
 my_fawkes.run_protection(image_paths, debug=True)
